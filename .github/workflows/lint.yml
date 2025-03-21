@@ -1,0 +1,32 @@
+name: Linter Pipeline for Next.js Project
+
+# Trigger on push or pull requests to main
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  # Linting Job
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20' # Matches your TypeScript/Node setup
+
+      - name: Install pnpm
+        run: npm install -g pnpm # Required for pnpm install
+
+      - name: Install Dependencies
+        run: pnpm install # Using pnpm as you specified
+
+      - name: Run Linting
+        run: npm run lint
