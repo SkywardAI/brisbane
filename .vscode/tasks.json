@@ -10,7 +10,7 @@
     {
       "label": "Run Lint",
       "type": "shell",
-      "command": "npm run lint",
+      "command": "pnpm lint",
       "problemMatcher": []
     },
     {
