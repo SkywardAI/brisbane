@@ -5,9 +5,8 @@
       "name": "Next.js: Dev",
       "type": "node",
       "request": "launch",
-      "runtimeExecutable": "npm",
+      "runtimeExecutable": "pnpm",
       "runtimeArgs": [
-        "run",
         "dev"
       ],
       "console": "integratedTerminal",
