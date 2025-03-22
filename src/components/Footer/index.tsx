@@ -216,7 +216,7 @@ const Footer = () => {
             <p className="text-center text-base text-body-color dark:text-white">
               © 2024 - {new Date().getFullYear()}{" "}
               <a
-                href="https://nextjstemplates.com"
+                href="https://github.com/SkywardAI"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary"
