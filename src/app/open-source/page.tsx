@@ -5,16 +5,16 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Page | Skyward AI Labs",
-  description: "This is About Page for Skyward AI Labs",
+  title: "Open Source Page | Skyward AI Labs",
+  description: "This is Open Source Page for Skyward AI Labs",
   // other metadata
 };
 
-const AboutPage = () => {
+const OpenSourcePage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="About Page"
+        pageName="Open Source Page"
         description="Skyward AI Labs official website page"
       />
       <AboutSectionOne />
@@ -23,4 +23,4 @@ const AboutPage = () => {
   );
 };
 
-export default AboutPage;
+export default OpenSourcePage;

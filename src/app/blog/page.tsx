@@ -44,7 +44,7 @@ const Blog = () => {
                 </li>
                 <li className="mx-1">
                   <a
-                    href="#0"
+                    href="#1"
                     className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
                   >
                     1
@@ -52,7 +52,7 @@ const Blog = () => {
                 </li>
                 <li className="mx-1">
                   <a
-                    href="#0"
+                    href="#2"
                     className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
                   >
                     2
