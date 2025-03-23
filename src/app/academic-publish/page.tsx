@@ -14,7 +14,7 @@ const AcademicPublish = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Academic Publish Grid"
+        pageName="Academic Publish Page"
         description="Skyward AI Labs official academic publish page"
       />
 
