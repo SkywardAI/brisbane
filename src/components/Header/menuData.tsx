@@ -43,7 +43,13 @@ const menuData: Menu[] = [
         title: "Papers",
         path: "/academic-publish",
         newTab: false,
-      }
+      },
+      {
+        id: 42,
+        title: "Principles",
+        path: "/principles",
+        newTab: false,
+      },
     ],
   },
   {
