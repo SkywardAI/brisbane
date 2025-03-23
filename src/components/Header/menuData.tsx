@@ -15,7 +15,7 @@ const menuData: Menu[] = [
       {
         id: 21,
         title: "Local Intelligence",
-        path: "/",
+        path: "/local-intellegence",
         newTab: false,
       },
     ],
