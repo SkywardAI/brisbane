@@ -27,8 +27,8 @@ const menuData: Menu[] = [
     submenu: [
       {
         id: 31,
-        title: "Waiting for release",
-        path: "/",
+        title: "Private Cloud",
+        path: "/private-cloud",
         newTab: false,
       }
     ],
