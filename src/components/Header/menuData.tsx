@@ -46,6 +46,12 @@ const menuData: Menu[] = [
       },
       {
         id: 42,
+        title: "Patents",
+        path: "/patents",
+        newTab: false,
+      },
+      {
+        id: 43,
         title: "Principles",
         path: "/principles",
         newTab: false,
