@@ -35,32 +35,19 @@ const menuData: Menu[] = [
   },
   {
     id: 4,
-    title: "Research",
+    title: "Research+",
     newTab: false,
     submenu: [
       {
         id: 41,
-        title: "Waiting for release",
-        path: "/",
+        title: "Papers",
+        path: "/academic-publish",
         newTab: false,
       }
     ],
   },
   {
     id: 5,
-    title: "Open Source",
-    newTab: false,
-    submenu: [
-      {
-        id: 41,
-        title: "Waiting for release",
-        path: "/",
-        newTab: false,
-      }
-    ],
-  },
-  {
-    id: 6,
     title: "Support",
     path: "/contact",
     newTab: false,
