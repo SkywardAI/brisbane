@@ -18,6 +18,12 @@ const menuData: Menu[] = [
         path: "/local-intellegence",
         newTab: false,
       },
+      {
+        id: 22,
+        title: "Clarity",
+        path: "/clarity",
+        newTab: false,
+      },
     ],
   },
   {
